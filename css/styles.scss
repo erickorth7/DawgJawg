@@ -1,0 +1,9 @@
+.video-container {
+    position: relative;
+    z-index: 0;
+}
+
+.video-overlay {
+    position: absolute;
+    z-index: 1;
+}
