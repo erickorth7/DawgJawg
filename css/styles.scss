@@ -1,9 +1,48 @@
+//COLOR VARIABLES:
+$primary-green: #557571;
+$secondary-orange: #D49A89;
+$light-orange:  #F7D1BA;
+$neutral: #F4F4F4;
+//END OF COLOR VARIABLES;
+
+//START OF TEXT COLOR VARIABLES
+$text-light: #F4F4F4;
+$text-dark: #000000;
+//END OF TEXT COLOR VARIABLES 
+
+//GLOBAL STYLES
+body {
+    background-color: $neutral;
+    font-family: Urbanist, sans-serif;
+}
+//END OF GLOBAL STYLES
+
+//NAVBAR STYLES
+.navbar {
+    background-color: $primary-green;
+}
+//END OF NAVBAR STYLES
+
+//HERO BANNER STYLES
+.white-text {
+    color: $text-light;
+}
+//END OF OF HERO BANNER STYLES
+
+.video-overlay-text {
+    position: absolute;
+    z-index: 1;
+}
+
+
+.video {
+    width:100%;
+    height:auto;
+}
+
 .video-container {
     position: relative;
     z-index: 0;
 }
 
-.video-overlay {
-    position: absolute;
-    z-index: 1;
-}
+
