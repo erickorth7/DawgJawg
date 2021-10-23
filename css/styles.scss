@@ -15,6 +15,26 @@ body {
     background-color: $neutral;
     font-family: Urbanist, sans-serif;
 }
+
+p {
+    font-size: 1.5rem;
+}
+
+.heading {
+    font-family: Yellowtail, Urbanist, open-sans;
+    font-size: 3rem;
+}
+
+.btn-green {
+    background-color: $primary-green;
+    color: $text-light;
+}
+
+.btn-orange {
+    background-color: $secondary-orange;
+    color: $text-light;
+}
+
 //END OF GLOBAL STYLES
 
 //NAVBAR STYLES
@@ -32,6 +52,11 @@ body {
 .video-overlay-text {
     position: absolute;
     z-index: 1;
+    left: 50%;
+    margin-left: -360px;
+    top: 50%;
+    margin-top: -70px;
+
 }
 
 
@@ -45,4 +70,58 @@ body {
     z-index: 0;
 }
 
+.main-heading {
+    font-family: Yellowtail, Urbanist, open-sans;
+    font-size: 7rem;
+}
 
+//HOW IT WORKS SECTION STYLES
+#how-it-works-section {
+    background-color:$neutral;
+    color: $text-dark;
+}
+
+.how-it-works-images {
+    width: 200px;
+    height:auto;
+}
+
+.description-text {
+    font-size: 1.1rem;
+}
+//END OF HOW IT WORKS SECTION STYLES
+
+//SUBSCRIPTIONS SECTION STYLES
+.subscriptions-section {
+    background-color: $secondary-orange;
+    color: $text-light;
+}
+
+.subscription-image {
+    width: 70%;
+    height:auto;
+}
+//END OF SUBSCRIPTIONS SECTION STYLES
+
+//CTA SECTION STYLES
+#cta-section {
+    background-color: $light-orange;
+    color: $text-dark;
+}
+//END OF CTA SECTION STYLES
+
+//FOOTER SECTION STYLES
+#footer-section {
+    background-color: $primary-green;
+    color: $text-light;
+    a {
+        color: $text-light;
+    }
+    
+}
+
+.social-icons {
+    font-size: 1.5rem;
+    padding-right: 15px;
+}
+//END OF FOOTER SECTION STYLES
